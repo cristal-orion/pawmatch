@@ -133,6 +133,29 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Offerta di Natale */}
+      <section id="christmas-offer" className="bg-gradient-to-r from-red-600 via-red-500 to-green-600 py-16">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="rounded-3xl bg-white/10 backdrop-blur border border-white/20 px-8 py-10 text-center shadow-xl">
+            <p className="text-sm font-semibold uppercase tracking-widest text-white/80">Promo speciale</p>
+            <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white">
+              Offerta di Natale: 50% di sconto sul primo mese Premium
+            </h2>
+            <p className="mt-4 text-white/90 text-lg">
+              Regala al tuo cane più occasioni di socializzare con match illimitati e profili verificati.
+            </p>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="#download" className="rounded-full bg-white px-8 py-3 text-base font-semibold text-red-600 hover:bg-red-50 transition">
+                Attiva l’offerta
+              </a>
+              <a href="#how" className="rounded-full border border-white/70 px-8 py-3 text-base font-semibold text-white hover:bg-white/10 transition">
+                Scopri come funziona
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section id="download" className="bg-gray-900 py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
