@@ -115,6 +115,17 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Cats */}
+      <section id="cats" className="bg-white py-20">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <p className="text-sm font-semibold uppercase tracking-widest text-orange-500">Novità</p>
+          <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-gray-900">Da oggi anche per i gatti</h2>
+          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+            Trova il compagno di giochi perfetto anche per il tuo micio: profili dedicati, match su misura e incontri più rilassati.
+          </p>
+        </div>
+      </section>
+
       {/* How it works */}
       <section id="how" className="bg-orange-50 py-24">
         <div className="max-w-6xl mx-auto px-6">
