@@ -118,6 +118,10 @@ export default async function Home() {
       {/* How it works */}
       <section id="how" className="bg-orange-50 py-24">
         <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-10 rounded-2xl border border-red-200 bg-red-50 px-6 py-5 text-center">
+            <p className="text-sm font-semibold uppercase tracking-widest text-red-600">Update</p>
+            <h3 className="mt-2 text-2xl sm:text-3xl font-bold text-red-700">Da oggi solo per gatti</h3>
+          </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900">{stepsTitle}</h2>
           <div className="mt-16 grid sm:grid-cols-3 gap-8 text-center">
             {steps.map((s: any, i: number) => (
